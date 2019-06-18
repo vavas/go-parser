@@ -1,0 +1,10 @@
+version: "2"
+services:
+  go-parser:
+    image: golang:1.8
+    volumes:
+    - .:/GolandProjects/go-parser
+    working_dir: /GolandProjects/go-parser
+    command: ./dist/go-parser
+    expose:
+    - 80
