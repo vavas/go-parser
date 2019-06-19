@@ -7,7 +7,7 @@ import (
 // UrlService service to manage url content
 type UrlService int
 
-// Parse
+// Parse passed url
 func (u *UrlService) Parse(r *http.Request, args *string, reply *ParsedURL) error {
 
 	result := new(ParsedURL)

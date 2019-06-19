@@ -1,7 +1,7 @@
 FROM golang:1.8
 
-WORKDIR /go/src/app
-COPY . .
+WORKDIR /GolandProjects/go-parser
+COPY . /GolandProjects/go-parser
 
 RUN go get -d -v ./...
 RUN go install -v ./...
