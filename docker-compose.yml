@@ -3,8 +3,8 @@ services:
   go-parser:
     image: golang:1.8
     volumes:
-    - .:/GolandProjects/go-parser
-    working_dir: /GolandProjects/go-parser
+    - .:/go/src/github.com/vavas/go-parser
+    working_dir: /go/src/github.com/vavas/go-parser
     command: ./dist/go-parser
     expose:
     - 80
