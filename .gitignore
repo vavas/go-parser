@@ -1,6 +1,2 @@
 # The app build from go build
 dist/
-
-# Reporting
-reports/
-coverage.*
